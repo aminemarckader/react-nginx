@@ -11,7 +11,7 @@ library.add(fab)
 export default function Footer() {
     return (
         <Fragment>
-        <footer className="bg-primary footer fixed-bottom text-center text-white">
+        <footer className="bg-primary footer fixed-bottom text-center text-white footer-padding">
  
             <div className="container p-4">
    
@@ -40,11 +40,10 @@ export default function Footer() {
 
   
             <div className="text-center p-2 mb-2">
-                © 2020 Copyright:&nbsp;
-                <a href="https://mdbootstrap.com/"> elkendi.com</a>
+                © 2020 - {new Date().getFullYear()} Copyright:&nbsp; Mohamed Lamine KADER - IT Department
             </div>
 
-        </footer>
+        </footer> 
         </Fragment>
     )
 }
